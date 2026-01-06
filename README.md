@@ -1,3 +1,11 @@
+# Students of Watan (Catan-like) — C++ CLI Game
+
+A command-line implementation of **Students of Watan**, a University of Waterloo–themed variant of *Settlers of Catan*. The game supports **4 human players**, turn-based gameplay, resource generation from dice rolls, building/upgrading criteria, achieving goals, trading, geese (robber) mechanics, and saving/loading game state.
+
+> This project is based on a course project specification. Rules and I/O format follow the provided spec as closely as possible.
+
+---
+
 ## Features
 
 - **4-player turn-based game** (Blue, Red, Orange, Yellow)
@@ -24,7 +32,6 @@
 - A C++ compiler (recommended: **clang++** on macOS, **g++** also works)
 - A Unix-like terminal (macOS Terminal is fine)
 
-### Build (example)
-If your project has a `Makefile`:
+### To build
 ````bash
 make
